@@ -13,3 +13,8 @@ h2:nth-of-type(2) {
     grid-column: 1/2;
     grid-row: 2/3;
 }
+
+#andorra1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
