@@ -1,20 +1,39 @@
 #nanocontainer {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows: 100px 100px;
+    grid-template-rows: 2fr 1fr;
+    gap: 12px;
 }
 
 img {
     /* max-width: 400px; */
     width: 100%;
+
 }
 
 h2:nth-of-type(2) {
     grid-column: 1/2;
     grid-row: 2/3;
+    /* height: 300px; */
 }
 
 #andorra1 {
     grid-column: 2/3;
     grid-row: 1/2;
+    height: 400px;
+}
+
+#andorra2 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+#karts1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#karts2 {
+    grid-column: 3/4;
+    grid-row: 2/3;
 }
